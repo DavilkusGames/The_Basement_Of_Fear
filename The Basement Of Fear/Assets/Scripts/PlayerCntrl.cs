@@ -52,11 +52,11 @@ public class PlayerCntrl : MonoBehaviour
         }
 
         // AUDIO
-        if (isMoved)
+        if (isMoved && !audio.isPlaying)
         {
             audio.Play();
         }
-        else
+        else if (!isMoved && audio.isPlaying)
         {
             audio.Stop();
         }
