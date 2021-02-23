@@ -128,7 +128,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &193875475
 Transform:
   m_ObjectHideFlags: 0
@@ -374,6 +374,7 @@ GameObject:
   - component: {fileID: 1345624728}
   - component: {fileID: 1345624729}
   - component: {fileID: 1345624725}
+  - component: {fileID: 1345624731}
   - component: {fileID: 1345624730}
   m_Layer: 0
   m_Name: Player
@@ -554,3 +555,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1345624731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1345624723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2280ad03401d545beb8b7670399425b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlight: {fileID: 193875474}
